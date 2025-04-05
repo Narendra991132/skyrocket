@@ -1,5 +1,5 @@
-// const API_URL = "http://23192887-skyscanner-lb-219067387.eu-central-1.elb.amazonaws.com";
-const API_URL = "http://localhost:8080";
+const API_URL = "http://23429615-skyrocket-lb-2007696089.eu-central-1.elb.amazonaws.com";
+// const API_URL = "http://localhost:8080";
 const API_VERSION = "/api/v1";
 const API_BASE_URL = `${API_URL}${API_VERSION}`;
 const API_MASTER_DATA_URL = `${API_BASE_URL}/master`;

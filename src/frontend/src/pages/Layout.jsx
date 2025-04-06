@@ -22,7 +22,7 @@ const Layout = () => {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center justify-between w-full md:w-auto">
               <Link to="/" className="flex items-center group">
-                <img src={icon} alt="Flighter Logo" className="h-10 mr-3 rounded-full transition-transform group-hover:scale-105" />
+                <img src={"/skyrocketlogo.webp"} alt="Flighter Logo" className="h-10 mr-3 rounded-full transition-transform group-hover:scale-105" />
                 <h1 className="text-3xl font-extrabold bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent">{PROJECT_NAME}</h1>
               </Link>
               <button
@@ -109,7 +109,7 @@ const Layout = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center">
-                <img src={icon} alt="Logo" className="h-8 mr-2" />
+                <img src={"/skyrocketlogo.webp"} alt="Logo" className="h-8 mr-2" />
                 <h4 className="text-xl font-bold bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent">{PROJECT_NAME}</h4>
               </div>
               <p className="text-gray-600">Your gateway to the skies. Book your flights with ease and comfort.</p>

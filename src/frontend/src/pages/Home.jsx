@@ -95,7 +95,7 @@ const Home = () => {
         style={{ backgroundImage: "url('https://assets.barco.com/transform/33387ce6-56ba-4c13-aec1-d729ca13922a/airport-with-people')" }}
       >
         <div className="bg-black bg-opacity-50 p-8 rounded-lg text-center">
-        <h1 className="text-4xl md:text-6xl text-white font-bold mb-4">Narendra Adventure Awaits</h1>
+        <h1 className="text-4xl md:text-6xl text-white font-bold mb-4"> Adventure Awaits</h1>
         <p className="text-lg md:text-2xl text-gray-100">Find your next escape in just a few clicks</p>
         </div>
       </section>

@@ -1,10 +1,10 @@
 version: 0.2
 env:
   secrets-manager:
-    LOGIN: prod/sonar/test2:sonartoken
-    HOST: prod/sonar/test2:HOST
-    Organization: prod/sonar/test2:Organization
-    Project: prod/sonar/test2:Project
+    LOGIN: prod/sonar/23429615/skyrocket:sonartoken
+    HOST: prod/sonar/23429615/skyrocket:HOST
+    Organization: prod/sonar/23429615/skyrocket:Organization
+    Project: prod/sonar/23429615/skyrocket:Project
 phases:
   install:
     runtime-versions:

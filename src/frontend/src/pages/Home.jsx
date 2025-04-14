@@ -106,7 +106,7 @@ const Home = () => {
           <div className="bg-white shadow-lg rounded-lg p-8">
             <div className="flex items-center mb-6">
               <FaSearch className="text-2xl text-rose-500 mr-3" />
-              <h2 className="text-2xl font-semibold text-gray-800">Search Flight1</h2>
+              <h2 className="text-2xl font-semibold text-gray-800">Search Flight</h2>
             </div>
             <form onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">

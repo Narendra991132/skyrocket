@@ -95,7 +95,7 @@ const Home = () => {
         style={{ backgroundImage: "url('https://assets.barco.com/transform/33387ce6-56ba-4c13-aec1-d729ca13922a/airport-with-people')" }}
       >
         <div className="bg-black bg-opacity-50 p-8 rounded-lg text-center">
-        <h1 className="text-4xl md:text-6xl text-white font-bold mb-4"> Adventure Awaits1</h1>
+        <h1 className="text-4xl md:text-6xl text-white font-bold mb-4"> Adventure Awaits</h1>
         <p className="text-lg md:text-2xl text-gray-100">Find your next escape in just a few clicks</p>
         </div>
       </section>
@@ -106,7 +106,7 @@ const Home = () => {
           <div className="bg-white shadow-lg rounded-lg p-8">
             <div className="flex items-center mb-6">
               <FaSearch className="text-2xl text-rose-500 mr-3" />
-              <h2 className="text-2xl font-semibold text-gray-800">Search Flight</h2>
+              <h2 className="text-2xl font-semibold text-gray-800">Search Flights</h2>
             </div>
             <form onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
